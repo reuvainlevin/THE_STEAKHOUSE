@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> &Tscr;he &Sscr;teakhouse </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="icon.png">
+</head>
+
+<body>
+	<div class="logo">
+		<hr class="bigl">
+		<img class="mlogo" src="icon.png" alt="Logo">
+		<h1 id="ts"> THE &lozf; STEAKHOUSE </h1>
+		<div id="main_info">
+			<a class="ml" href="The Steakhouse.html"> Home </a>
+			<a class="ml" href="menu.html"> Our Menu </a>
+			<a class="ml" href="our_chefs.html"> Our Chefs </a>
+			<a class="ml" id="cp" href="contact_info.html"> Contact Us </a>
+		</div>
+		<div id="hrline">
+			<hr class="bigl">
+		</div>
+	</div>
+	<div class="page">
+		<p id="phone">Our Phone Number:
+			<span>777-888-7777</span>
+		</p>
+		<form id="form" action="returnForm.php" method="post">
+			<div id="div1">
+				<input type="text" id="firstname" name="firstName" placeholder="First Name" required>
+				<input type="text" name="lastName" placeholder="Last Name" required>
+				<input type="number" name="age" min="0" max="120" placeholder="Age">
+				<input type="email" name="email" placeholder="Email">
+				<input type="date" name="date">Last time you visited us.
+				<br>
+				<input type="radio" name="usa" value="USA" checked>USA
+				<input type="radio" name="europe" value="Europe">Europe
+				<input type="radio" name="other" value="Other">Other
+			</div>
+			<div id="div2">
+				<input type="checkbox" name="recommend" value="recommend" checked/>I would recommend a friend.
+				<input type="range" name="range" value="5" min="1" max="5">Rate us!
+				<textarea type="text" name="comments" placeholder="Comments/Concerns"></textarea>
+				<p>
+					<input type="submit">
+				</p>
+			</div>
+		</form>
+		<p>We look forward to hearing from
+			<span>you.</span>
+		</p>
+	</div>
+	<a id="fixed_mlogo" id="homelin" href="The Steakhouse.html"></a>
+</body>
+
+</html>
