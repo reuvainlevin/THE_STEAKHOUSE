@@ -491,7 +491,7 @@ textarea {
 /*-------MAIN PAGE-------*/	
 
 	.page{
-		background-image: url("Images/IMG_1516_bckrnd.png");
+		background-image: url("IMG_1516_bckrnd.png");
 		background-size: cover;
 		height:600px;
 		margin-top: 18px;
@@ -508,7 +508,7 @@ textarea {
 		margin: 0px;
 		bottom: 3px;
 		right: 3px;
-		background-image:url("Images/icon.png");
+		background-image:url("icon.png");
 		background-size: cover;
 		text-decoration: none;
 	}
@@ -551,7 +551,7 @@ textarea {
 
 	.menu_page{
 		margin:18px 0px 0px 0px;
-		background-image: url("Images/IMG_1516_bckrnd.png");
+		background-image: url("IMG_1516_bckrnd.png");
 		background-size: cover;
 		height:1300px;
 	}
